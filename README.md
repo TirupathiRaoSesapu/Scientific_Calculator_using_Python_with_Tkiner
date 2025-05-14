@@ -26,14 +26,6 @@ This is a **modern, feature-rich scientific calculator** built using **Python's 
 
 ---
 
-## 📷 Screenshots
-
-> Replace the image below with an actual screenshot in your repo under `images/screenshot.png`.
-
-![Calculator UI](images/screenshot.png)
-
----
-
 ## 🛠️ How to Run
 
 ### 1. Clone the repository
