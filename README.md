@@ -2,7 +2,7 @@
 
 This is a **modern, feature-rich scientific calculator** built using **Python's Tkinter GUI library**. It supports both basic and advanced scientific functions, has memory operations, history tracking, and even supports degree/radian mode switching. The calculator offers a responsive user interface styled with a dark theme for a sleek, modern appearance.
 
-![Scientific Calculator Screenshot](images/screenshot.png)
+![Scientific Calculator Screenshot](image.png)
 
 ---
 
