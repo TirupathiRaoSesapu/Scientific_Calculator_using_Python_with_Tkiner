@@ -1,4 +1,4 @@
-# Project: Scientific Calculator (or the project name)
+# Project: Scientific Calculator
 # Author: Tirupathi Rao Sesapu | STR Telugu YouTube Channel
 # License: CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/)
 # This code is for educational purposes only.
