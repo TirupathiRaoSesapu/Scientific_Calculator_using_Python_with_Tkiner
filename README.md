@@ -14,7 +14,6 @@ This is a **modern, feature-rich scientific calculator** built using **Python's 
 👉 [Watch on STR Telugu YouTube Channel](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 [![Watch Tutorial](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-
 > Don’t forget to Like 👍, Share 🔁, and Subscribe 🔔 to support more free tutorials.
 
 ---
@@ -46,6 +45,7 @@ This is a **modern, feature-rich scientific calculator** built using **Python's 
 ```bash
 git clone https://github.com/yourusername/scientific-calculator.git
 cd scientific-calculator
+```
 
 ---
 
@@ -57,7 +57,7 @@ This project is licensed under the [Creative Commons BY-NC-ND 4.0 License](https
 Shared for educational purposes via the [STR Telugu](https://www.youtube.com/@STRTelugu) YouTube channel.
 
 This code is:
+
 - ✅ Free to view and learn from.
 - ❌ Not allowed to be reused, modified, or distributed.
 - ❌ Not allowed for commercial use of any kind.
-```
