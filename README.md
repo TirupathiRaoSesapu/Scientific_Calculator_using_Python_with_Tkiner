@@ -7,17 +7,17 @@ This is a **modern, feature-rich scientific calculator** built using **Python's 
 ![Scientific Calculator Screenshot](image.png)
 
 ---
-
+<!--
 ## 🎥 Watch Tutorial on YouTube
 
 📺 This project is explained step-by-step in the following YouTube video:  
-👉 [Watch on STR Telugu YouTube Channel](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+ 👉 [Watch on STR Telugu YouTube Channel](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 [![Watch Tutorial](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 
 > Don’t forget to Like 👍, Share 🔁, and Subscribe 🔔 to support more free tutorials.
 
----
+----->
 
 ## 🚀 Features
 
