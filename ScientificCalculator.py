@@ -1,9 +1,3 @@
-# Project: Scientific Calculator
-# Author: Tirupathi Rao Sesapu | STR Telugu YouTube Channel
-# License: CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/)
-# This code is for educational purposes only.
-# You may not reuse, modify, or distribute this code commercially or non-commercially.
-
 from tkinter import *
 import math
 
@@ -223,8 +217,7 @@ buttons = [
 ]
 
 for (text, row, col, cmd, tooltip_text) in buttons:
-    btn = Button(root, text=text, command=cmd, padx=10, pady=10, font=("Arial", 16),
-                 bg="#333", fg="white", activebackground="#555", activeforeground="white", bd=2)
+    btn = Button(root, text=text, command=cmd, padx=10, pady=10, font=("Arial", 16), bg="#333", fg="white", activebackground="#555", activeforeground="white", bd=2)
     btn.grid(row=row, column=col, sticky="nsew", padx=1, pady=1)
     create_tooltip(btn, tooltip_text)
 
@@ -232,6 +225,7 @@ for (text, row, col, cmd, tooltip_text) in buttons:
 mode_btn = Button(root, text="Deg", command=toggle_degree_mode, font=("Arial", 16),
                   bg="#444", fg="white")
 mode_btn.grid(row=7, column=0, columnspan=7, sticky="nsew", padx=1, pady=1)
+create_tooltip(mode_btn, "Degree / Radiance")
 
 # Key Bindings
 def key_input(event):
@@ -242,6 +236,8 @@ def key_input(event):
         evaluate()
     elif event.keysym == 'BackSpace':
         backspace()
+    elif event.char in'cC':
+        clear()
 
 root.bind("<Key>", key_input)
 
