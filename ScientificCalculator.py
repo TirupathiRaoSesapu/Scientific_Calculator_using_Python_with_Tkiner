@@ -44,6 +44,7 @@ def evaluate():
         history.append(f"{expression} = {result}")
         equation.set(result)
         expression = result
+        entry.icursor(END)
     except:
         equation.set("Error")
         expression = ""
@@ -57,6 +58,7 @@ def scientific_function(func):
         result = str(getattr(math, func)(val))
         equation.set(result)
         expression = result
+        entry.icursor(END)
     except:
         equation.set("Error")
         expression = ""
@@ -67,6 +69,7 @@ def square_root():
         result = str(math.sqrt(float(expression)))
         equation.set(result)
         expression = result
+        entry.icursor(END)
     except:
         equation.set("Error")
         expression = ""
@@ -77,6 +80,7 @@ def square():
         result = str(float(expression) ** 2)
         equation.set(result)
         expression = result
+        entry.icursor(END)
     except:
         equation.set("Error")
         expression = ""
@@ -87,6 +91,7 @@ def cube_root():
         result = str(float(expression) ** (1/3))
         equation.set(result)
         expression = result
+        entry.icursor(END)
     except:
         equation.set("Error")
         expression = ""
@@ -97,6 +102,7 @@ def factorial():
         result = str(math.factorial(int(float(expression))))
         equation.set(result)
         expression = result
+        entry.icursor(END)
     except:
         equation.set("Error")
         expression = ""
@@ -107,6 +113,7 @@ def absolute():
         result = str(abs(float(expression)))
         equation.set(result)
         expression = result
+        entry.icursor(END)
     except:
         equation.set("Error")
         expression = ""
@@ -173,7 +180,7 @@ def create_tooltip(widget, text):
 # Buttons
 buttons = [
     ('C', 1, 0, clear, 'Clear all'), 
-    ('⌫', 1, 1, backspace, 'Backspace'),
+    ('\u232b', 1, 1, backspace, 'Backspace'),
     ('%', 1, 2, lambda: press('%'), 'Modulus'),
     ('/', 1, 3, lambda: press('/'), 'Divide'),
     ('sqrt', 1, 4, square_root, 'Square root'),
